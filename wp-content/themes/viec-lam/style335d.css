@@ -1,0 +1,516 @@
+/*
+    Theme Name:         Việc làm Flatsome chuẩn SEO bởi Văn Thế Web
+    Description:        Giao diện website đăng tin tuyển dụng việc làm
+    Theme URI:          https://tuyendung.themes.vantheweb.com/
+    Author:             Văn Thế Web
+    Phone:              0386019486
+    Template:           flatsome
+    Version:            Mới nhất
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+    
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background: var(--primary-color)
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    
+    background-color: #f5f5f5;
+}
+.searchandfilter ul li{
+	display: inline-block;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+	width: 200px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.searchandfilter ul li input[type="text"], .form_tim_kiem ul li select, .form_tim_kiem ul li input[type=submit]{
+	margin-bottom : 0px !important;
+	box-shadow : none !important;
+	-webkit-box-shadow : none !important;
+	height: 40px;
+	line-height : 40px;
+	float : left;
+	border-radius: 30px !important;
+	
+}
+.searchandfilter ul li input[type="text"], .form_tim_kiem ul li select{
+color : #757575;
+}
+.form_tim_kiem .searchandfilter ul li [type=submit]
+{
+	border-radius: 30px !important;
+}
+.form_tim_kiem .searchandfilter ul li label{
+	width: 100%;
+}
+.searchandfilter ul{
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+}
+.searchandfilter{
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+}
+#breadcrumbs{
+	margin-bottom: 0px;
+}
+.category-viec-lam table{
+	margin-bottom: 0px;
+}
+.category-viec-lam{
+	margin-bottom:0px;
+}
+.div-thong-tin-them ul{
+	float: left;
+}
+.list-tin-tuyen-dung .box-image{
+	display: none;
+}
+a.xem-chi-tiet:hover{
+	color: yellow;
+}
+.job-info {
+    padding: 15px;
+    border: 1px solid #d7e4f4;
+    background: #f3f8ff;
+    margin-bottom: 30px;
+}
+.job-info p{
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+.job-info h4{
+		font-size: 16px;
+}
+.div-file{
+	margin-top: 12px;
+}
+.form-ung-tuyen .large-12{
+	text-align: center;
+}
+.form-ung-tuyen input.wpcf7-text{
+	    border: solid 2px #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.form-ung-tuyen{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.form-ung-tuyen div{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.div-bread{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+a.xem-chi-tiet{
+    font-size: 16px;
+    font-weight: bold;
+    background: #39d469;
+    color: #fff;
+
+    border-radius: 45px;
+    float: right;
+    padding: 8px 17px;
+}
+.div-thong-tin-them ul{
+	    margin-bottom: 0px;
+	margin-top: 14px;
+	list-style:none;
+}
+.div-thong-tin-them ul li{
+	display: inline-block;
+}
+.blog-archive .page-numbers{
+	display: block;
+	margin: 10px auto !important;
+}
+a.nopcv:hover{
+	    color: white;
+}
+a.nopcv{
+	    text-align: center;
+    display: block;
+    background-color: #f0ad4e;
+    color: white;
+    font-size: 1.5em;
+    padding: 9px 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.blog-share .social-icons{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#header-contact li a, #top-bar .nav>li.html{font-size:14px; text-transform:none}.footer-secondary {
+    padding: 0;
+}.absolute-footer{font-size:13px}.meta-related {
+    background: #e6f4ff;
+    padding: 15px 0;
+}.meta-related {
+    margin-bottom: 20px;
+}.meta-related ul {
+    margin-bottom: 0;
+    margin-left: 15px;
+}.meta-related ul li {
+    font-size: 15px;
+}
+.header-bottom .nav>li{margin:0}
+.header-bottom .nav>li a{padding: 13px 20px;}
+a.back-to-top{background: #03a9f4 !important; border: none !important; color:white !important}
+.header-bottom .nav>li a{border-left: 1px solid #2b65b9;
+    border-right: 1px solid #164282;}
+.tin-lien-quan h2{font-size: 18px;
+    color: #2258a5;
+    margin-bottom: 15px;
+    margin-top: 10px;}
+.tin-lien-quan ul li{ border:1px solid white;   background: white;
+    box-shadow: 2px 2px 10px #0000001a;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px #00000012; list-style:none}.widget {
+    margin-bottom: 20px;
+}
+.list-tin-tuc .post-item .post-title:hover{color:#2258a5}
+.list-tin-tuc .post-item .post-title{margin-bottom:6px; font-size: 16px;}
+.tin-tuc-section .large-12{padding-bottom:0}
+.list-tin-tuc .post-item{padding-bottom:0}
+.section-trang-chu .col{padding-bottom:0}
+.list-tin-tuc .row-tin{display:none}
+.section-title-center span{font-size:21px}
+.blog-single h2{    font-size: 17px;
+    color: #03a9f4;}
+.section-title-container { margin-top:20px !important;
+    margin-bottom: 0;
+}
+.section-trang-chu img{border-radius:4px}
+.section-title-normal {    border-bottom: none;
+    margin-bottom: 0;
+    background: #2258a5;
+    padding: 5px;
+    color: white;
+} .section-title-normal span {font-size:16px;
+    margin-right: 15px;
+    padding-bottom: .0;
+    border-bottom: 0;
+	margin-bottom: 0;}
+.list-tin-tuyen-dung{margin-left:0 !important; margin-right:0 !important}
+
+
+.list-tin-tuyen-dung .row-tin{clear:both; display:inline-block; width:100%}
+.list-tin-tuyen-dung .row-tin .right{width:30%; float:right; display:inline-block; text-align:right }
+.list-tin-tuyen-dung .row-tin .left{width:70%; float:left; display:inline-block }
+.list-tin-tuyen-dung .post-item{padding-left:10px; padding-right:10px;  
+    border-bottom: 1px solid #ececec;
+}
+
+.list-tin-tuyen-dung .post-item .post-title, .blog-archive .post-item .post-title{    margin-bottom: 4px;
+
+    color: #42464e;
+    font-size: 20px;}
+.list-tin-tuyen-dung .post-item .box-text{padding: 12px 0px;}
+#comments{display:none}
+.tin-lien-quan h4{margin-bottom:2px; background-image: url(../../uploads/2019/06/dot.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    padding-left: 17px;
+    font-size: 16px;}
+.bai-viet-lien-quan ul li h4:hover{color:#2258a5;}
+
+
+b,strong{font-weight:bold}
+.page-right-sidebar .page-inner p{margin-bottom:15px}
+
+.page-right-sidebar{    padding-top: 20px;
+    padding-bottom: 20px;}
+.header-bottom .header-nav{border-left: 1px solid #164282;border-right: 1px solid #2b65b9}
+
+.bai-viet-lien-quan ul li h4{font-size:15px; color:black}
+.bai-viet-lien-quan ul li .box-text{padding-bottom:0; padding-top:5px}
+.bai-viet-lien-quan ul li .box-image img{height:160px; border-radius:5px; object-fit:cover; object-position: center}
+.bai-viet-lien-quan ul li{list-style: none;
+    width: 33.33%;
+    float: left; padding-left:6px; padding-right:6px}
+.bai-viet-lien-quan ul{display:inline-block; width:100%; clear:both; border: 1px solid #ececec;
+    padding: 15px;}
+.bai-viet-lien-quan h2{background: #2258a5;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;}
+.bai-viet-lien-quan{margin-top:20px}
+.nav-dropdown{padding:0; }
+.blog-archive .post-item .box-image .image-cover{border-radius:5px}
+.category-tin-tuc .row-tin{display:none}
+.category-tin-tuc .post-item .box-text{padding-left:15px !important}
+.category-tin-tuc .post-item .from_the_blog_excerpt {display:block !important}
+.blog-archive .large-9 .badge{display:none}
+.header-bottom .nav>li.active a, .header-bottom .nav>li a:hover{background:#174588; color:white}
+
+.nav-dropdown li a:hover{color:#03a9f4 !important}
+#breadcrumbs{ text-align:left;   font-size: 14px;
+    color: #585858;}
+.blog-archive .large-12, .blog-single .large-12{padding-bottom:0}
+.blog-archive .page-numbers{margin-top:20px}
+.nav-pagination>li>a{    background: #03a9f4;
+
+    border: 2px solid #03a9f4;
+    color: white !important;
+}
+.blog-archive .large-columns-1 {border: 1px solid #ececec;
+    margin-left: 0 !important;
+    margin-right: 0 !important;}
+/*.blog-archive .post-item .box-text{padding:0}*/
+.blog-archive .post-item .from_the_blog_excerpt {display:none}
+.list-tin-tuc .from_the_blog_excerpt{    height: 48px;
+    overflow: hidden;}
+.blog-archive .post-item .post-meta {display:none}
+.blog-archive .post-item:hover{background:#f7f7f7}
+.blog-archive .post-item{border-bottom: 1px solid #ececec; padding:15px;}
+
+
+.blog-archive .page-title, .mypage-title, span.widget-title, .page-right-sidebar .entry-header .entry-title
+
+{    border-top-left-radius: 7px;
+    /* border-radius: 10px; */
+    display: block;
+    background: #52A748;
+    padding: 12px 15px;
+    color: white;
+    text-transform: none;
+    letter-spacing: 0;
+    border-top-right-radius: 7px; 
+       font-size: 1em;
+    font-weight: 600;
+	line-height: 1em !important;
+	text-align:left;
+}
+.blog-archive .page-title, .mypage-title{
+	margin-bottom: 0px;
+}
+.blog-archive {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fa-home{margin-right:7px}
+.blog-single h1.entry-title, .tin-lien-quan h2,  .motacongviec_title{ 
+    padding: 10px;
+	 padding-left: 0px;
+    font-size: 18px;
+    color: #50A346;margin-bottom: 0px;
+}
+.motacongviec_title{
+	text-transform: uppercase;
+}
+.is-divider{display:none}
+.blog-single .blog-share{text-align:left}
+.fa-pen{margin-right:7px; font-size:14px
+}
+.tin-lien-quan .muc-luong{    color: red;
+    font-weight: bold;}
+.tin-lien-quan .row-tin .right, .blog-archive .row-tin .right
+{width:30%; display:inline-block; text-align:right; float:left }
+.tin-lien-quan .row-tin .left, .blog-archive .row-tin .left{width:70%; display:inline-block; float:left }
+.tin-lien-quan ul li:hover{border: 1px solid #03a9f4;
+    box-shadow: 2px 2px 10px #0000001f;}
+.tin-lien-quan .row-tin {width:100%; display:inline-block; clear:both;     font-size: 14px;
+    color: #3e3e3e;}
+
+.entry-header-text {
+    padding: 0;
+}
+.blog-single{padding-top: 20px;
+    padding-bottom: 20px;
+}
+.thong-tin-co-ban{line-height: 30px; width:100%; display:inline-block; clear:both}
+.value.luong-co-ban{    color: red;
+    font-weight: bold;
+}
+.value{font-weight:bold;}
+.section-info ul{margin-bottom:0}
+
+.quyen-loi ul{margin-bottom:10px}
+.quyen-loi p{margin-bottom:0}
+.quyen-loi ul li, .section-info ul li{ margin-left:0;     margin-bottom: 15px;
+ list-style:none;
+    
+    margin-left: 0;
+    background: url(../../uploads/2019/06/learning-bg-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    padding-left: 23px;}
+.quyen-loi ul{display:inline-block; width:100%; clear:both }
+.section-info h2{font-size:18px; color:#2258a5;}
+.blog-single .entry-content ul li{margin-bottom:2px}
+.thong-tin-co-ban .left{display:inline-block; width:70%; float:left;}
+.thong-tin-co-ban .right{display:inline-block; width:30%;  text-align:left}
+.blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9{flex-basis:70%; max-width:70%; }
+.blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{padding-left:0; flex-basis:30%; border-left:none !important; max-width:30%;}
+.thong-tin-lien-he{margin-bottom:20px}
+.widget ul{border: 1px solid #ececec;}
+.widget ul li a:hover{background-color:#f1f1f1;color: var(--primary-color);}
+.widget ul li a{
+	padding-left: 6px;
+	display: block;
+}
+.widget ul.menu li a::before{
+	
+    content: "\f101";
+	font-family: 'FontAwesome';
+   margin-right: 6px;
+}
+.widget ul li a span.job_count{
+	margin-right: 6px;
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    min-width: 24px;
+    background: var(--primary-color);
+    text-align: center;
+    font-size: 12px !important;
+    color: #ffffff;
+    vertical-align: middle;
+    border-radius: 4px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.widget ul.menu li.menu-item-readmore a::before{
+	content: "";
+}
+.widget ul.menu li.menu-item-readmore{
+	text-align:center;
+}
+.thong-tin-lien-he .box{     padding: 25px 20px 20px 20px;
+    border: 1px solid #d7e4f4;
+    background: #f3f8ff;
+    margin-bottom: 20px;}
+.thong-tin-lien-he .box .sdt{color:red; font-weight:bold}
+.thong-tin-lien-he h2{  margin-bottom:0;  padding: 10px;
+    font-size: 18px;
+    background: #FF8F00;
+    color: white;}
+@media(max-width: 855px){
+	.div-thong-tin-them ul {
+    margin-bottom: 11px;}
+a.xem-chi-tiet{
+	float: unset;
+}
+	.div-thong-tin-them ul li {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+
+.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    text-transform: none;
+	font-size: 16px;}.icon-angle-down:before{color:white}.nav-sidebar.nav-vertical>li+li {
+   
+}
+
+.off-canvas:not(.off-canvas-center) .nav-vertical li.active ul.children{background:#174688; padding-bottom:0 }
+.off-canvas:not(.off-canvas-center) .nav-vertical li.active ul.children li{border-bottom: 1px solid #2258a5;}
+.list-tin-tuyen-dung .row-tin .left, .list-tin-tuyen-dung .row-tin .right{display:block; width:100%; text-align:left}
+.list-tin-tuyen-dung .post-item .post-title, .blog-archive .post-item .post-title{font-size:15px}.section-trang-chu .col{padding-bottom:20px}.section-trang-chu img{width:100%}.list-tin-tuc .post-item{flex-basis:50%; max-width:50%}.list-tin-tuc .post-item .post-title{font-size:14px}
+.list-tin-tuc .post-item .box-text{padding-bottom:5px}
+.blog-single .large-9, .blog-archive .large-9, .page-right-sidebar .large-9, .blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{flex-basis:100%; max-width:100%}
+.blog-single .large-3, .blog-archive .large-3, .page-right-sidebar .large-3{padding-left:15px}
+
+.widget img, .thong-tin-co-ban .left, .thong-tin-co-ban .right{width:100%}
+.blog-archive .post-item .post-title{margin-top:5px}
+.blog-single .entry-content, .tin-lien-quan ul{padding:10px}
+.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul{padding:10px}.bai-viet-lien-quan ul li .box-image img{height:100px}
+.blog-archive .post-item .from_the_blog_excerpt{display:none !important}
+.category-tin-tuc .post-item .box-text{padding-left:0 !important}
+.list-tin-tuc .from_the_blog_excerpt{display:none}
+}
+.float-contact {
+position: fixed;
+bottom: 20px;
+left: 20px;
+z-index: 99999;
+}
+.chat-zalo {
+background: #8eb22b;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-face {
+background: #125c9e;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.float-contact .hotline {
+background: #d11a59!important;
+border-radius: 20px;
+padding: 0 18px;
+color: white;
+display: block;
+margin-bottom: 6px;
+}
+.chat-zalo a, .chat-face a, .hotline a {
+font-size: 15px;
+color: white;
+font-weight: 400;
+text-transform: none;
+line-height: 0;
+}
+.viec-lam-item .box-image .image-cover{
+		margin-right:12px;
+	}
+@media (max-width: 549px){
+.float-contact{
+display:none
+}
+	.row-tin .div-thong-tin-them ul{
+		margin-top:0px;
+		margin-bottom: 0px;
+		width: calc(100% - 80px);
+	}
+	.div-thong-tin-them ul li{
+		width:50%;
+		margin: 0px;
+	}
+	.row-tin a.xem-chi-tiet{
+		font-size:14px;
+		    padding: 4px 8px;
+		width:80px;
+		text-align:center;
+	}
+	.viec-lam-item .box-image .image-cover{
+		margin-right:0px;
+	}
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.searchandfilter ul li {
+	width: 100% !important;;
+	}
+	.searchandfilter ul li input, .searchandfilter ul li select{
+		width: 100% !important;;
+	}
+}
