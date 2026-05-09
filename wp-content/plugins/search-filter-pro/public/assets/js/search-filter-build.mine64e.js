@@ -1830,15 +1830,13 @@
                                         var item = part.split('=');
                                         if(item[0]) r[decodeURIComponent(item[0])] = decodeURIComponent(item[1] || "");
                                     });
-                                } else if (typeof rawParams === "object") {
-                                    r = rawParams;
-                                }
+                                } else { r = rawParams; }
                                 var paths = [];
                                 var cleanKeys = ["khu-vuc", "nganh-nghe"]; 
                                 cleanKeys.forEach(function(key) {
                                     if (r[key] && r[key] !== "") {
                                         paths.push(key + "/" + r[key]);
-                                        delete r[key]; 
+                                        delete r[key];
                                     }
                                 });
                                 if (paths.length > 0) {
